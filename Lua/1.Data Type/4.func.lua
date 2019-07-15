@@ -11,7 +11,7 @@ print(factorial(5))
 temp = factorial
 print(temp(5))
 
-function testFun(tab,fun)
+function testFun(tab, fun)
     for k ,v in pairs(tab) do
         print(fun(k,v));
     end
